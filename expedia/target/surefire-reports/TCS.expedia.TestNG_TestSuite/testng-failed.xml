@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TCS.expedia.TestNG_TestSuite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="TCS.expedia.TestNG_TestSuite">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- TCS.expedia.TestNG_TestSuite -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [TCS.expedia.TestNG_TestSuite] -->

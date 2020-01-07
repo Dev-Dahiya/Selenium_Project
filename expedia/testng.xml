@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression_Test_Suit">
+	<test name="Application_Test">
+		<classes>
+			<class name="TCS.expedia.TestNG_TestSuite"></class>
+
+		</classes>
+	</test>
+</suite>

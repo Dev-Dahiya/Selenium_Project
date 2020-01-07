@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Login TestSuite" parallel="tests" thread-count="2">
+<test name="Firefox Test">
+<parameter name="browser" value="firefox"></parameter>
+<parameter name="email" value="dev@email.com"></parameter>
+<parameter name="password" value="abcd"></parameter>
+	<classes>
+		<class name="testclasses.PracticalExercise"></class>		
+	</classes>
+</test>
+<test name="Chrome Test">
+<parameter name="browser" value="chrome"></parameter>
+<parameter name="email" value="yana@email.com"></parameter>
+<parameter name="password" value="ab"></parameter>
+	<classes>
+		<class name="testclasses.PracticalExercise"></class>		
+	</classes>
+</test>
+</suite>

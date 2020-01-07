@@ -1,0 +1,14 @@
+<suite name="TestSuit">
+<test name="ExpediaHomePage" preserve-order="true">
+<classes>
+	<class name="testpackage.NewTest">
+		<methods>
+			<include name="fillBasicInfo" />
+			<include name="fillAdvancedInfo" />
+		
+		</methods>
+	</class>
+</classes>
+</test>
+</suite>
+

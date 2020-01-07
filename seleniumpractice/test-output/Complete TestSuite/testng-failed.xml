@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Complete TestSuite]">
+  <test thread-count="5" name="Application Test 1(failed)">
+    <classes>
+      <class name="extentreports19.PracticePageTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="enterNameTest"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- extentreports19.PracticePageTest -->
+    </classes>
+  </test> <!-- Application Test 1(failed) -->
+</suite> <!-- Failed suite [Complete TestSuite] -->

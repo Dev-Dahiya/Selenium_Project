@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Groups Test Suite" duration-ms="41" started-at="2017-09-28T12:16:45Z" finished-at="2017-09-28T12:16:45Z">
+    <groups>
+      <group name="cars">
+        <method signature="TestNG_Grouping.testAudiA6()[pri:0, instance:TCS.expedia.TestNG_Grouping@3bfdc050]" name="testAudiA6" class="TCS.expedia.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.testBMWX6()[pri:0, instance:TCS.expedia.TestNG_Grouping@3bfdc050]" name="testBMWX6" class="TCS.expedia.TestNG_Grouping"/>
+      </group> <!-- cars -->
+      <group name="suv">
+        <method signature="TestNG_Grouping.testBMWX6()[pri:0, instance:TCS.expedia.TestNG_Grouping@3bfdc050]" name="testBMWX6" class="TCS.expedia.TestNG_Grouping"/>
+      </group> <!-- suv -->
+      <group name="sedan">
+        <method signature="TestNG_Grouping.testAudiA6()[pri:0, instance:TCS.expedia.TestNG_Grouping@3bfdc050]" name="testAudiA6" class="TCS.expedia.TestNG_Grouping"/>
+      </group> <!-- sedan -->
+    </groups>
+    <test name="GroupsDemo" duration-ms="41" started-at="2017-09-28T12:16:45Z" finished-at="2017-09-28T12:16:45Z">
+      <class name="TCS.expedia.TestNG_Grouping">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TCS.expedia.TestNG_Grouping@3bfdc050]" name="beforeClass" is-config="true" duration-ms="10" started-at="2017-09-28T17:46:45Z" finished-at="2017-09-28T17:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testAudiA6()[pri:0, instance:TCS.expedia.TestNG_Grouping@3bfdc050]" name="testAudiA6" duration-ms="6" started-at="2017-09-28T17:46:45Z" finished-at="2017-09-28T17:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAudiA6 -->
+        <test-method status="PASS" signature="testBMWX6()[pri:0, instance:TCS.expedia.TestNG_Grouping@3bfdc050]" name="testBMWX6" duration-ms="2" started-at="2017-09-28T17:46:45Z" finished-at="2017-09-28T17:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBMWX6 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TCS.expedia.TestNG_Grouping@3bfdc050]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-09-28T17:46:45Z" finished-at="2017-09-28T17:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TCS.expedia.TestNG_Grouping -->
+    </test> <!-- GroupsDemo -->
+  </suite> <!-- Groups Test Suite -->
+</testng-results>

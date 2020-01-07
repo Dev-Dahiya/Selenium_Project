@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TCS.expedia.TestNG_TestSuite" time="0.019" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/devkumar/Documents/workspace/expedia"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/devkumar/Documents/workspace/expedia"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/80/817j3x9n32gf2h64ysz0l_s00000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.5.0/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/devkumar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/apache-maven/apache-maven-3.5.0/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.2"/>
+    <property name="library.jansi.path" value="/usr/local/apache-maven/apache-maven-3.5.0/lib/jansi-native/osx64"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/devkumar"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="devkumar"/>
+    <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.5.0/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="/Users/devkumar/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.5.0"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="TCS.expedia.TestNG_TestSuite" name="f" time="0.019">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at TCS.expedia.TestNG_TestSuite.f(TestNG_TestSuite.java:28)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@2c13da15
+</system-out>
+    <system-err>1506597095795	geckodriver	INFO	Listening on 127.0.0.1:7270
+1506597096036	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args [&quot;-marionette&quot;]
+1506597096287	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:271 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:741 &lt; startup()@resource://gre/modules/AddonManager.jsm:908 &lt; startup()@resource://gre/modules/AddonManager.jsm:3122 &lt; observe()@jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/addonManager.js:65
+1506597096675	Marionette	INFO	Enabled via --marionette
+2017-09-28 16:41:38.058 plugin-container[49014:1299889] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0xaa07, name = &apos;com.apple.tsm.portname&apos;
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-09-28 16:41:38.059 plugin-container[49014:1299889] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0xb003, name = &apos;com.apple.CFPasteboardClient&apos;
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1506597098392	Marionette	INFO	Listening on port 57034
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506597098487	Marionette	DEBUG	loaded listener.js
+Sep 28, 2017 4:41:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1506597099065	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;about:blank&quot;
+1506597103330	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;about:blank&quot;
+1506597103330	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;about:blank&quot;
+1506597105856	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597106243	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://2589056.fls.doubleclick.net/activityi;src=2589056;type=apaci918;cat=apaci119;ord=7160835816315.477&quot;
+1506597108530	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://2589056.fls.doubleclick.net/activityi;src=2589056;type=apaci918;cat=apaci119;ord=7160835816315.477&quot;
+1506597111232	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111237	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111237	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111239	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111243	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111245	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111245	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111247	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111249	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111251	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111252	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111254	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111266	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111268	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111368	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111380	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111384	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;2147483655&quot;
+1506597111384	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;2147483659&quot;
+1506597111397	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111621	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111731	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111743	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111750	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111820	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111827	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111829	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111860	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597111868	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://2589208.fls.doubleclick.net/activityi;src=2589208;type=apaci060;cat=apaci186;ord=3874429492582.551?&quot;
+1506597111870	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://2589208.fls.doubleclick.net/activityi;src=2589208;type=apaci060;cat=apaci186;ord=3874429492582.551?&quot;
+1506597112298	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.cdn-net.com/s2?t=AUnzCSOcFnn5jzNE1BTqgldx&amp;x=1&amp;sid=eeb0e3596d8e435b89bf23a76&amp;tid=fveeuvuk0&amp;expuserid=&amp;guid=ccedc37bf5c54062bec7645285ee733f&quot;
+1506597112301	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.cdn-net.com/s2?t=AUnzCSOcFnn5jzNE1BTqgldx&amp;x=1&amp;sid=eeb0e3596d8e435b89bf23a76&amp;tid=fveeuvuk0&amp;expuserid=&amp;guid=ccedc37bf5c54062bec7645285ee733f&quot;
+1506597112529	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html&quot;
+1506597112546	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html&quot;
+1506597112760	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html&quot;
+1506597112818	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html&quot;
+1506597113076	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597113082	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.expedia.co.in/&quot;
+1506597113398	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=q1jglrva2&amp;kxt=https%3A%2F%2Fwww.expedia.co.in&amp;kxcl=cdn&amp;kxp=&quot;
+1506597113503	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;2147483687&quot;
+1506597113555	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://pix.impdesk.com/csync/fire/multi.html?inc=obk,exp&quot;
+1506597113653	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=q1jglrva2&amp;kxt=https%3A%2F%2Fwww.expedia.co.in&amp;kxcl=cdn&amp;kxp=&quot;
+1506597116001	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://pix.impdesk.com/csync/fire/multi.html?inc=obk,exp&quot;
+1506597116421	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.expedia.co.in/&quot;
+</system-err>
+  </testcase>
+</testsuite>

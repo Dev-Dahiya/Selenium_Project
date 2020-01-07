@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuit]">
+  <test name="ExpediaHomePage(failed)">
+    <classes>
+      <class name="testpackage.NewTest">
+        <methods>
+          <include name="fillAdvancedInfo"/>
+          <include name="beforeMethod"/>
+          <include name="fillBasicInfo"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testpackage.NewTest -->
+    </classes>
+  </test> <!-- ExpediaHomePage(failed) -->
+</suite> <!-- Failed suite [TestSuit] -->

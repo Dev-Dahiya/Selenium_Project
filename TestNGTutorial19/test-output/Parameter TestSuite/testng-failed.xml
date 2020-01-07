@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameter TestSuite]">
+  <test name="Application Test 1(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testclasses.Practice">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- testclasses.Practice -->
+    </classes>
+  </test> <!-- Application Test 1(failed) -->
+</suite> <!-- Failed suite [Parameter TestSuite] -->

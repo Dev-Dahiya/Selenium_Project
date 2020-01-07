@@ -1,0 +1,12 @@
+15:20:00.941 WARN  log4j2tutorial19.LoggingConsole -Warn message
+15:20:00.970 ERROR log4j2tutorial19.LoggingConsole -Error message
+15:20:00.970 FATAL log4j2tutorial19.LoggingConsole -Fatal message
+15:20:19.055 WARN  log4j2tutorial19.LoggingConsole -Warn message
+15:20:19.058 ERROR log4j2tutorial19.LoggingConsole -Error message
+15:20:19.059 FATAL log4j2tutorial19.LoggingConsole -Fatal message
+15:22:48.475 WARN  log4j2tutorial19.LoggingConsole -Warn message
+15:22:48.478 ERROR log4j2tutorial19.LoggingConsole -Error message
+15:22:48.478 FATAL log4j2tutorial19.LoggingConsole -Fatal message
+15:23:56.023 WARN  log4j2tutorial19.LoggingConsole -Warn message
+15:23:56.026 ERROR log4j2tutorial19.LoggingConsole -Error message
+15:23:56.026 FATAL log4j2tutorial19.LoggingConsole -Fatal message

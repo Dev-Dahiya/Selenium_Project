@@ -1,0 +1,7 @@
+15:01:55.074 INFO  letskodeit.LoggingFile -Info message logged-1
+15:01:55.075 ERROR letskodeit.LoggingFile -Error message logged-1
+15:01:55.076 FATAL letskodeit.LoggingFile -Fatal message logged-1
+15:02:29.727 DEBUG demo.LoggingDemo -Debug message logged
+15:02:29.729 INFO  demo.LoggingDemo -Info message logged
+15:02:29.729 ERROR demo.LoggingDemo -Error message logged
+15:02:29.730 FATAL demo.LoggingDemo -Fatal message logged

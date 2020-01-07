@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="25" started-at="2019-11-20T09:27:52Z" finished-at="2019-11-20T09:27:52Z">
+    <groups>
+      <group name="Audi">
+        <method signature="testNG_Grouping.AudiA6()[pri:0, instance:niit.flightspage.testNG_Grouping@13fee20c]" name="AudiA6" class="niit.flightspage.testNG_Grouping"/>
+      </group> <!-- Audi -->
+      <group name="BMW">
+        <method signature="testNG_Grouping.BMW3Series()[pri:0, instance:niit.flightspage.testNG_Grouping@13fee20c]" name="BMW3Series" class="niit.flightspage.testNG_Grouping"/>
+      </group> <!-- BMW -->
+      <group name="Sedan">
+        <method signature="testNG_Grouping.AudiA6()[pri:0, instance:niit.flightspage.testNG_Grouping@13fee20c]" name="AudiA6" class="niit.flightspage.testNG_Grouping"/>
+        <method signature="testNG_Grouping.BMW3Series()[pri:0, instance:niit.flightspage.testNG_Grouping@13fee20c]" name="BMW3Series" class="niit.flightspage.testNG_Grouping"/>
+        <method signature="testNG_Grouping.HondaAccort()[pri:0, instance:niit.flightspage.testNG_Grouping@13fee20c]" name="HondaAccort" class="niit.flightspage.testNG_Grouping"/>
+      </group> <!-- Sedan -->
+      <group name="Honda">
+        <method signature="testNG_Grouping.HondaAccort()[pri:0, instance:niit.flightspage.testNG_Grouping@13fee20c]" name="HondaAccort" class="niit.flightspage.testNG_Grouping"/>
+      </group> <!-- Honda -->
+    </groups>
+    <test name="CarsTest" duration-ms="25" started-at="2019-11-20T09:27:52Z" finished-at="2019-11-20T09:27:52Z">
+      <class name="niit.flightspage.testNG_Grouping">
+        <test-method status="PASS" signature="AudiA6()[pri:0, instance:niit.flightspage.testNG_Grouping@13fee20c]" name="AudiA6" duration-ms="6" started-at="2019-11-20T14:57:52Z" finished-at="2019-11-20T14:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AudiA6 -->
+        <test-method status="PASS" signature="BMW3Series()[pri:0, instance:niit.flightspage.testNG_Grouping@13fee20c]" name="BMW3Series" duration-ms="0" started-at="2019-11-20T14:57:52Z" finished-at="2019-11-20T14:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMW3Series -->
+        <test-method status="PASS" signature="HondaAccort()[pri:0, instance:niit.flightspage.testNG_Grouping@13fee20c]" name="HondaAccort" duration-ms="0" started-at="2019-11-20T14:57:52Z" finished-at="2019-11-20T14:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HondaAccort -->
+      </class> <!-- niit.flightspage.testNG_Grouping -->
+    </test> <!-- CarsTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

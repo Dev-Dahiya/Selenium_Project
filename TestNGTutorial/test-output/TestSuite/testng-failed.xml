@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="listnerspackage.CustomListner3"/>
+  </listeners>
+  <test name="Application Test 1(failed)">
+    <classes>
+      <class name="testclasses.TestNG_Listners1">
+        <methods>
+          <include name="testMethod1"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- testclasses.TestNG_Listners1 -->
+    </classes>
+  </test> <!-- Application Test 1(failed) -->
+  <test name="Application Test 2(failed)">
+    <classes>
+      <class name="testclasses.TestNG_Listners2">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+          <include name="testMethod1"/>
+        </methods>
+      </class> <!-- testclasses.TestNG_Listners2 -->
+    </classes>
+  </test> <!-- Application Test 2(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

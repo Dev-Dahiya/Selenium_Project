@@ -1,0 +1,15 @@
+16:34:28.501 DEBUG demo.LoggingDemo -Debug message logged
+16:34:28.511 ERROR demo.LoggingDemo -Error message logged
+16:34:28.511 FATAL demo.LoggingDemo -Fatal message logged
+16:34:38.547 DEBUG demo.LoggingDemo -Debug message logged
+16:34:38.551 ERROR demo.LoggingDemo -Error message logged
+16:34:38.551 FATAL demo.LoggingDemo -Fatal message logged
+16:34:49.788 DEBUG demo.LoggingConsole -Debug message logged
+16:34:49.792 ERROR demo.LoggingConsole -Error message logged
+16:34:49.792 FATAL demo.LoggingConsole -Fatal message logged
+16:35:24.028 INFO  letskodeit.LoggingFile -Info message logged-1
+16:35:24.032 ERROR letskodeit.LoggingFile -Error message logged-1
+16:35:24.032 FATAL letskodeit.LoggingFile -Fatal message logged-1
+16:38:19.068 INFO  letskodeit.LoggingFile -Info message logged-1
+16:38:19.072 ERROR letskodeit.LoggingFile -Error message logged-1
+16:38:19.072 FATAL letskodeit.LoggingFile -Fatal message logged-1

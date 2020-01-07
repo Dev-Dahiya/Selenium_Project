@@ -1,0 +1,7 @@
+<suite name= "Regression TestSuit">
+<test name= "Firefox Test">
+<classes>
+	<class name= "niit.flightspage.NewTest" />
+</classes>
+</test>
+</suite>

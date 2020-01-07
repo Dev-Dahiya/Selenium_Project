@@ -1,0 +1,14 @@
+<suite name= "test">
+<test name= "parameters">
+<parameter name= "origin" value= "New York" />
+<parameter name= "dest" value="Chicago" />
+<parameter name= "depDate" value= "02/05/2017" />
+<parameter name= "retDate" value= "05/05/2017" />
+
+
+
+<classes>
+	<class name= "testpackage.TestNGParametersAndDataProviders" />
+</classes>
+</test>
+</suite>

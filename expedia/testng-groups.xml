@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Groups Test Suite">
+	<test name="GroupsDemo">
+		<groups>
+			<define name="all">
+				<include name="bike"></include>
+				<include name="sedan"></include>
+				<include name="suv"></include>
+			</define>
+			<define name="nobikes">
+				<include name="cars"></include>
+			</define>
+			<run>
+				<include name="nobikes"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TCS.expedia.TestNG_Grouping"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,7 @@
+19:31:08.504 INFO  Log4jDemo.ToConsoleWithConfig -Info message logged
+19:31:08.507 ERROR Log4jDemo.ToConsoleWithConfig -Error message logged
+19:31:08.508 FATAL Log4jDemo.ToConsoleWithConfig -Fatal message logged
+19:31:55.133 DEBUG testpackage.ToFilleWithConfig -Debug message logged
+19:31:55.137 INFO  testpackage.ToFilleWithConfig -Info message logged
+19:31:55.137 ERROR testpackage.ToFilleWithConfig -Error message logged
+19:31:55.138 FATAL testpackage.ToFilleWithConfig -Fatal message logged

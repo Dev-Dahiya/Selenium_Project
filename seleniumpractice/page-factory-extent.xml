@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Complete TestSuite">
+<test name="Application Test 1">
+	<classes>
+		<class name="extentreports19.HomePageTest"></class>
+		<class name="extentreports19.PracticePageTest"></class>
+	</classes>
+</test>
+</suite>

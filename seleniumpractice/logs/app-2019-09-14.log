@@ -1,0 +1,7 @@
+17:18:55.715 INFO  letskodeit19.LoggingFile -Info message
+17:18:55.718 WARN  letskodeit19.LoggingFile -Warn message
+17:18:55.718 ERROR letskodeit19.LoggingFile -Error message
+17:18:55.719 FATAL letskodeit19.LoggingFile -Fatal message
+17:20:19.321 WARN  log4j2tutorial19.LoggingDemo -Warn message
+17:20:19.325 ERROR log4j2tutorial19.LoggingDemo -Error message
+17:20:19.326 FATAL log4j2tutorial19.LoggingDemo -Fatal message

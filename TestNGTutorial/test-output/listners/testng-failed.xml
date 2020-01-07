@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [listners]">
+  <test name="IInvoked Method(failed)">
+    <classes>
+      <class name="testclasses.TestNGListners2">
+        <methods>
+          <include name="setUp"/>
+          <include name="testMethod1"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- testclasses.TestNGListners2 -->
+    </classes>
+  </test> <!-- IInvoked Method(failed) -->
+</suite> <!-- Failed suite [listners] -->

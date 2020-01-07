@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression_Test_Suit]">
+  <test name="Application_Test(failed)">
+    <classes>
+      <class name="TCS.expedia.TestNG_TestSuite">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- TCS.expedia.TestNG_TestSuite -->
+    </classes>
+  </test> <!-- Application_Test(failed) -->
+</suite> <!-- Failed suite [Regression_Test_Suit] -->

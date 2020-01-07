@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [practice suite]" parallel="tests">
+  <test name="firefox test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testclasses.TestNG_Practice">
+        <methods>
+          <include name="testMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testclasses.TestNG_Practice -->
+    </classes>
+  </test> <!-- firefox test(failed) -->
+  <test name="chrome test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testclasses.TestNG_Practice">
+        <methods>
+          <include name="testMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testclasses.TestNG_Practice -->
+    </classes>
+  </test> <!-- chrome test(failed) -->
+</suite> <!-- Failed suite [practice suite] -->

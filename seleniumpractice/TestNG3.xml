@@ -1,0 +1,11 @@
+<suite name = "test">
+<test name= "testname">
+<classes>
+	<class name= "extenreports.Test1" ></class>
+	<class name= "extenreports.Test2"></class>
+</classes>
+
+</test>
+
+
+</suite>
